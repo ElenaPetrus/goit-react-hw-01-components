@@ -15,7 +15,7 @@ function Statistics({ title, stats }) {
     )})`;
   };
   return (
-    <section class="statistics">
+    <section className="statistics">
       <h2 className="title">{title}</h2>
 
       <ul className="stat-list">

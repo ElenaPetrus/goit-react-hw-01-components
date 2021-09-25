@@ -4,10 +4,10 @@ import FriendListItem from './FriendListItem';
 
 // import s from './FriendList.module.css';
 
-function FriendList({ friend }) {
+function FriendList({ friends }) {
   return (
     <ul className="friend-list">
-      {friend.map(friend => (
+      {friends.map(friend => (
         <li className="item" key={friend.id}>
           <FriendListItem {...friend} />{' '}
         </li>
