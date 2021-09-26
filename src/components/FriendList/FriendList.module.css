@@ -1,13 +1,11 @@
 .friends {
   display: flex;
   flex-direction: column;
-
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   margin: auto;
   width: 450px;
   border-radius: 5px;
-
-  background-color: rgb(177, 180, 182);
+  padding-bottom: 50px;
 }
 
 .item {
