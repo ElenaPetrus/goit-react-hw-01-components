@@ -1,9 +1,10 @@
 import React from 'react';
+import s from './FriendList.module.css';
 
 function FriendListItem({ avatar, name, isOnline }) {
   return (
     <>
-      <span className="status">
+      <span className={s.status}>
         {isOnline ? (
           <div
             style={{
@@ -24,8 +25,8 @@ function FriendListItem({ avatar, name, isOnline }) {
           ></div>
         )}
       </span>
-      <img className="avatar" src={avatar} alt="" width="48" />
-      <p className="name">{name}</p>
+      <img className={s.avatar} src={avatar} alt="" width="48" />
+      <p className={s.name}>{name}</p>
     </>
   );
 }
